@@ -74,7 +74,7 @@ public class Sketch extends PApplet {
     // The current time
     if (intTimeMinutes > 9) {
       textSize(15);
-      fill(0, 0, 0);
+      fill(intTimeMinutes*2, intTimeMinutes*4, intTimeMinutes*2);
       text("The current time is: " + intTimeHours + ":" + intTimeMinutes, 100, 20);
     }
     else {
